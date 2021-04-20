@@ -1,4 +1,5 @@
 Algoritmizálási feladatok, tömbök gyakorlása tesztesetekkel
+
 Kellemes időtöltést kívánok!
 
 Exercise 7.1: lastindexof
@@ -43,7 +44,7 @@ az egyes elemek és a tömb átlaga közti különbségek négyzeteit kell össz
 mérete-1 értékkel, és ennek a négyzetgyökét venni.
 Feltételezzük, hogy a tömbnek legalább 2 eleme van!
 
-7.7: kthargest
+Exercise 7.7: kthlargest
 
 Írj egy kthLargest(int[] numbers, int k) metódust, mely azt az elemet adja vissza egy egyedi elemeket tartalmazó tömbből, 
 amelyiknél k-val több nagyobb szám van.

@@ -1,4 +1,4 @@
-package kthargest;
+package kthlargest;
 
 import org.junit.jupiter.api.Test;
 
