@@ -140,7 +140,18 @@ a páros számok sorrendje mindegy, csak ők legyenel elöl.
 Pl: [5, 4, 2, 11, 9, 10, 4, 7, 3] egy lehetséges megoldása: [4, 2, 10, 4, 5, 11, 9, 7, 3]
 Kerüld az Arrays.sort, vagy bármilyen ideiglenes tömb használatát!
 
-Exercise 7.19: wordlengths
+Exercise 7.20: matrixadd
 
+Írj egy matrixAdd metódust, mely két ugyanakkora méretű tömbök tömbjét kap paraméterül.
+(public int[][] matrixAdd(int[][] a, int[][] b) 
+A két tömbök tömbjét egy 2D mátrixként kezeli, összeadja az azonos helyen szereplő értékeket és az eredménnyel tér vissza.
+Tehát A + B mátrix = C, ahol minden i sor és j oszlop, Cij = Aij + Bij
+
+Exercise 7.21: ismagicsquare
+
+Írj egy isMagicSquare(int[][] arr) metódust, mely megmondja, hogy a paraméterül kapott tömbök tömbje szimmetrikus-e.
+Akkor szimmetrikus, ha négyzet alakú, az egyes sorok és oszlopok összege és még a két átlón található számok összege is 
+megegyezik.
+Pl {{2, 7, 6}, {9, 5, 1}, {4, 3, 8}} szimmetrikus, mert négyzet és minkét átója 15 (6+5+4 = 2+5+8)
 
 @forrás:https://practiceit.cs.washington.edu
